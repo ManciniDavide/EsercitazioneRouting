@@ -1,0 +1,9 @@
+<h5>ECCO GLI ANIMALI</h5>
+<div class="row m-2">
+    <div class="col border" *ngFor="let animali of animali">
+        <div>
+            {{animali.emoji}}
+            <div class="text-info">{{ animali.name}}</div>
+        </div>
+    </div>
+</div>
